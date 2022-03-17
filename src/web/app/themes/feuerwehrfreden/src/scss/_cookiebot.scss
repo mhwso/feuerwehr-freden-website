@@ -1,0 +1,28 @@
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonAccept,
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonAccept,
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+  border: 2px solid #000000 !important;
+}
+
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize,
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+  border-color: #000000 !important;
+}
+
+#CybotCookiebotDialogTabContent input:checked + .CybotCookiebotDialogBodyLevelButtonSlider {
+  background-color: #a5a5a5 !important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.active {
+  border-bottom: 1px solid !important;
+  color: #000000 !important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink:hover {
+  color: #000000 !important;
+}
