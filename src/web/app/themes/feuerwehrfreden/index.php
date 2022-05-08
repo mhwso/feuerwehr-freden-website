@@ -1,7 +1,5 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
+    <h1>Index</h1>
 
-echo "index.php";
-
-get_footer();
+<?php get_footer();

@@ -6,7 +6,7 @@ let $ = require('jquery');
 /**
  * Popper
  */
-require('popper.js');
+require('@popperjs/core');
 
 /**
  * Bootstrap

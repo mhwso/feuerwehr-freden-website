@@ -1,0 +1,17 @@
+#footer {
+  background: $secondary;
+  margin-top: auto;
+}
+
+#footer-nav-menu {
+  min-height: 125px;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

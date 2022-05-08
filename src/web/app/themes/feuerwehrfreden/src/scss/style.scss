@@ -7,7 +7,19 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
 @import "global";
+@import "typo";
+@import "header";
 @import "nav";
+@import "main-slider";
+@import "mega-menu";
 @import "menu-icon";
 @import "menu-button";
+@import "footer";
 @import "cookiebot";
+@import "single";
+@import "content-elements";
+
+
+.post-filters {
+  margin: 1rem 0;
+}

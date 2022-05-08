@@ -1,7 +1,12 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
+    <div id="main-container" class="container">
+        <?php
 
-echo "page.php";
+        the_title('<h1 class="entry-title">', '</h1>');
+        the_content();
 
-get_footer();
+        ?>
+    </div>
+
+<?php get_footer();

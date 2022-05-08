@@ -1,0 +1,42 @@
+/** Add text shadow to top level menu items on desktop AND mobile **/
+#mega-menu-wrap-primary {
+  background: transparent;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary {
+  > li.mega-menu-item {
+    > a.mega-menu-link {
+      color: $primary;
+      text-transform: uppercase;
+
+      &:hover {
+        background: $secondary;
+      }
+    }
+
+    &.mega-current-menu-item,
+    &.mega-current-menu-ancestor,
+    &.mega-current-page-ancestor, {
+      > a.mega-menu-link {
+        background: $secondary;
+      }
+    }
+  }
+
+  > li.mega-menu-flyout {
+    & ul.mega-sub-menu {
+      & li.mega-menu-item {
+        & a.mega-menu-link {
+          background: $secondary;
+          color: #fff;
+
+          &:hover,
+          &:focus {
+            background: #fff;
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
