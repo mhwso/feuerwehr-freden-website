@@ -106,7 +106,7 @@ get_header();
                                     <h5 class="card-title"><?php the_title() ?></h5>
                                     <h6 class="card-subtitle mb-2 text-muted"><?php the_time('j. F Y') ?></h6>
                                     <p class="card-text"><?php echo get_the_excerpt() ?></p>
-                                    <a href="<?php echo get_permalink($post->ID) ?>" class="btn btn-primary text-uppercase">Zum Einsatz</a>
+                                    <a href="<?php echo get_permalink($post->ID) ?>" class="btn btn-primary text-uppercase">Zum Beitrag</a>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,16 @@
+.wpcf7-form {
+  input:not([type=checkbox]),
+  select,
+  textarea {
+    width: 500px !important;
+    max-width: 100% !important;
+  }
+
+  .wpcf7-acceptance {
+    .wpcf7-list-item {
+      max-width: 100%;
+      width: 500px;
+      margin-left: 0;
+    }
+  }
+}

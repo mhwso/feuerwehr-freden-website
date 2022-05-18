@@ -1,0 +1,18 @@
+.tribe-common-l-container.tribe-events-l-container {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+
+  padding-top: 0 !important;
+  padding-right: var(--bs-gutter-x, 0.75rem) !important;
+  padding-left: var(--bs-gutter-x, 0.75rem) !important;
+
+  @include media-breakpoint-up('lg') {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+.tribe-events-event-image > img {
+  max-width: 500px;
+  height: auto;
+}

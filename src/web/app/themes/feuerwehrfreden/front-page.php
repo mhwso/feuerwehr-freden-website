@@ -19,10 +19,10 @@ get_header();
     <div id="blog-container" class="container">
         <div class="row mb-5">
 
-            <h2 class="text-uppercase mb-5">Aktuellste Meldungen</h2>
+            <h2 class="text-uppercase mb-5">Aktuellste Beiträge</h2>
 
             <?php
-            $posts = get_posts(['numberposts' => 6, 'category' => 1]);
+            $posts = get_posts(['numberposts' => 9, 'category' => [1,5]]);
 
             if (count($posts) > 0) {
                 for ($i = 0; $i < count($posts); $i++) {
@@ -37,7 +37,7 @@ get_header();
                                 <h5 class="card-title"><?php echo $post->post_title ?></h5>
                                 <h6 class="card-subtitle mb-2 text-muted"><?php echo $post->post_date ?></h6>
                                 <p class="card-text"><?php echo get_the_excerpt($post->ID) ?></p>
-                                <a href="<?php echo get_permalink($post->ID) ?>" class="btn btn-primary text-uppercase">Zum Einsatz</a>
+                                <a href="<?php echo get_permalink($post->ID) ?>" class="btn btn-primary text-uppercase">Zum Beitrag</a>
                             </div>
                         </div>
                     </div>
@@ -45,12 +45,6 @@ get_header();
                 }
             }
             ?>
-        </div>
-
-        <div class="row">
-            <div class="col-12 text-center">
-                <a href="<?php echo get_category_link(1 )?>" class="btn btn-primary text-uppercase">Mehr anzeigen</a>
-            </div>
         </div>
     </div>
 
