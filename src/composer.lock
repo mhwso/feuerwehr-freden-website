@@ -864,15 +864,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-migrate-db/",
-                "reference": "tags/2.3.0"
+                "reference": "tags/2.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.2.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.2.3.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
