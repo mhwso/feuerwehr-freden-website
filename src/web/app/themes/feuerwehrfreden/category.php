@@ -37,17 +37,17 @@ get_header();
                 <?php endwhile; ?>
 
                 <?php } else { ?>
-                    <p>Es wurden leider keine Beiträge gefunden.</p>
+                    <p>Es wurden leider keine passenden Beiträge gefunden</p>
                 <?php } ?>
             </div>
         </div>
         <div class="col-12">
             <div class="row">
                 <div class="col-6">
-                    <div class="nav-next alignleft"><?php next_posts_link('< Neuere Beiträge'); ?></div>
+                    <div class="nav-next alignleft"><?php previous_posts_link('< Neuere Beiträge'); ?></div>
                 </div>
                 <div class="col-6 text-end">
-                    <div class="nav-previous alignright"><?php previous_posts_link('Ältere Beiträge >'); ?></div>
+                    <div class="nav-previous alignright"><?php next_posts_link('Ältere Beiträge >'); ?></div>
                 </div>
             </div>
         </div>

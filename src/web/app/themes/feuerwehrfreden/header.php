@@ -3,6 +3,9 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="37c32fe5-e23f-4c42-b699-7ffb870895f5" data-blockingmode="auto" type="text/javascript"></script>
+
     <?php wp_head(); ?>
 </head>
 
