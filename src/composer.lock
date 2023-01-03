@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4125271e1c6c75c2b74110247ffaa684",
+    "content-hash": "0b956c0beda54550b6f8ac30e519f9ab",
     "packages": [
         {
             "name": "composer/installers",
@@ -827,6 +827,24 @@
             "homepage": "https://wordpress.org/plugins/megamenu/"
         },
         {
+            "name": "wpackagist-plugin/simple-yearly-archive",
+            "version": "2.1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-yearly-archive/",
+                "reference": "tags/2.1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-yearly-archive.2.1.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-yearly-archive/"
+        },
+        {
             "name": "wpackagist-plugin/smart-slider-3",
             "version": "3.5.1.4",
             "source": {
@@ -1545,5 +1563,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.0.0"
 }
