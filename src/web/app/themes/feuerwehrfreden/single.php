@@ -34,7 +34,7 @@
                         <?php } ?>
                         <?php if ($value = get_field('fff-post-begin')) { ?>
                             <tr>
-                                <td>Einsatzbegin</td>
+                                <td>Einsatzbeginn</td>
                                 <td><?php echo $value ?></td>
                             </tr>
                         <?php } ?>
