@@ -35,12 +35,13 @@
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="nav-next alignleft"><?php previous_posts_link('< Neuere Beiträge'); ?></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="nav-previous alignright"><?php next_posts_link('Ältere Beiträge >'); ?></div>
-                    </div>
+                <div class="col-6 text-end">
+                    <div class="nav-previous alignleft"><?php next_posts_link('< Neuere Beiträge'); ?></div>
+                </div>
+                <div class="col-6">
+                    <div class="nav-next alignright"><?php previous_posts_link('Ältere Beiträge >'); ?></div>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
