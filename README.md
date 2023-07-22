@@ -1,10 +1,6 @@
 
 # Docker Compose and WordPress
 
-[![Build Status](https://travis-ci.org/urre/wordpress-nginx-docker-compose.svg?branch=master)](https://travis-ci.org/urre/wordpress-nginx-docker-compose)
-
-[![Donate](https://img.shields.io/badge/Donation-green?logo=paypal&label=Paypal)](https://www.paypal.me/urbansanden)
-
 Use WordPress locally with Docker using [Docker compose](https://docs.docker.com/compose/)
 
 ## Contents
