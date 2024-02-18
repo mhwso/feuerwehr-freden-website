@@ -18,7 +18,7 @@
                         <?php } ?>
                         <?php if ($value = get_field('fff-post-team-strength')) { ?>
                             <tr>
-                                <td>Mannschatsstärke</td>
+                                <td>Mannschaftsstärke</td>
                                 <td><?php echo $value ?></td>
                             </tr>
                         <?php } ?>
