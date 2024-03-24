@@ -44,8 +44,7 @@ get_header();
                             <select name="filter_orderby" class="form-select">
                                 <?php
                                 $orderby_options = array(
-                                        'post_date' => 'Nach Datum',
-                                        'post_title' => 'Nach Titel',
+                                        'post_date' => 'Nach Datum'
                                 );
 
                                 foreach ($orderby_options as $value => $label) {
@@ -73,7 +72,7 @@ get_header();
                                 <?php
 
                                 $order_options = [
-                                        'all' => 'Alle',
+                                        'all' => 'Alle Jahre',
                                 ];
 
                                 foreach ($dates as $date) {
@@ -83,7 +82,7 @@ get_header();
                                 }
 
                                 foreach ($order_options as $value => $label) {
-                                    echo "<option " . selected($_GET['filter_year'] ?? null, $value) . " value='$value'>Datum: ".$label."</option>";
+                                    echo "<option " . selected($_GET['filter_year'] ?? null, $value) . " value='$value'>".$label."</option>";
                                 }
                                 ?>
                             </select>
